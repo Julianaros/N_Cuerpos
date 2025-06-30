@@ -1,0 +1,232 @@
+=== N-Body OpenMP Benchmark Results ===
+Date: Mon Jun 30 04:44:10 UTC 2025
+=======================================
+
+Particles: 1000, Threads: 4
+Avg time: 0.007734 sec, Total time: 0.077339 sec
+---
+Particles: 2000, Threads: 4
+Avg time: 0.010987 sec, Total time: 0.109872 sec
+---
+Particles: 3000, Threads: 4
+Avg time: 0.016384 sec, Total time: 0.163840 sec
+---
+Particles: 4000, Threads: 4
+Avg time: 0.023411 sec, Total time: 0.234105 sec
+---
+Particles: 5000, Threads: 4
+Avg time: 0.033319 sec, Total time: 0.333186 sec
+---
+Particles: 6000, Threads: 4
+Avg time: 0.044835 sec, Total time: 0.448354 sec
+---
+Particles: 7000, Threads: 4
+Avg time: 0.057653 sec, Total time: 0.576529 sec
+---
+Particles: 8000, Threads: 4
+Avg time: 0.073172 sec, Total time: 0.731723 sec
+---
+Particles: 9000, Threads: 4
+Avg time: 0.090929 sec, Total time: 0.909289 sec
+---
+Particles: 10000, Threads: 4
+Avg time: 0.110384 sec, Total time: 1.103836 sec
+---
+Particles: 20000, Threads: 4
+Avg time: 0.424850 sec, Total time: 4.248504 sec
+---
+Particles: 30000, Threads: 4
+Avg time: 0.963016 sec, Total time: 9.630161 sec
+---
+Particles: 40000, Threads: 4
+Avg time: 1.681667 sec, Total time: 16.816671 sec
+---
+Particles: 50000, Threads: 4
+Avg time: 2.631106 sec, Total time: 26.311062 sec
+---
+Particles: 60000, Threads: 4
+Avg time: 3.773047 sec, Total time: 37.730474 sec
+---
+Particles: 70000, Threads: 4
+Avg time: 5.123535 sec, Total time: 51.235355 sec
+---
+Particles: 80000, Threads: 4
+Avg time: 6.724704 sec, Total time: 67.247041 sec
+---
+Particles: 90000, Threads: 4
+Avg time: 8.517972 sec, Total time: 85.179717 sec
+---
+Particles: 100000, Threads: 4
+Avg time: 10.407781 sec, Total time: 104.077805 sec
+---
+Particles: 1000, Threads: 8
+Avg time: 0.007426 sec, Total time: 0.074262 sec
+---
+Particles: 2000, Threads: 8
+Avg time: 0.008799 sec, Total time: 0.087991 sec
+---
+Particles: 3000, Threads: 8
+Avg time: 0.011665 sec, Total time: 0.116647 sec
+---
+Particles: 4000, Threads: 8
+Avg time: 0.015139 sec, Total time: 0.151393 sec
+---
+Particles: 5000, Threads: 8
+Avg time: 0.019931 sec, Total time: 0.199308 sec
+---
+Particles: 6000, Threads: 8
+Avg time: 0.025758 sec, Total time: 0.257582 sec
+---
+Particles: 7000, Threads: 8
+Avg time: 0.032444 sec, Total time: 0.324444 sec
+---
+Particles: 8000, Threads: 8
+Avg time: 0.040109 sec, Total time: 0.401093 sec
+---
+Particles: 9000, Threads: 8
+Avg time: 0.048861 sec, Total time: 0.488612 sec
+---
+Particles: 10000, Threads: 8
+Avg time: 0.059716 sec, Total time: 0.597156 sec
+---
+Particles: 20000, Threads: 8
+Avg time: 0.215132 sec, Total time: 2.151320 sec
+---
+Particles: 30000, Threads: 8
+Avg time: 0.484139 sec, Total time: 4.841390 sec
+---
+Particles: 40000, Threads: 8
+Avg time: 0.850228 sec, Total time: 8.502279 sec
+---
+Particles: 50000, Threads: 8
+Avg time: 1.321334 sec, Total time: 13.213340 sec
+---
+Particles: 60000, Threads: 8
+Avg time: 1.899222 sec, Total time: 18.992224 sec
+---
+Particles: 70000, Threads: 8
+Avg time: 2.579163 sec, Total time: 25.791627 sec
+---
+Particles: 80000, Threads: 8
+Avg time: 3.356414 sec, Total time: 33.564137 sec
+---
+Particles: 90000, Threads: 8
+Avg time: 4.217086 sec, Total time: 42.170855 sec
+---
+Particles: 100000, Threads: 8
+Avg time: 5.229482 sec, Total time: 52.294817 sec
+---
+Particles: 1000, Threads: 16
+Avg time: 0.007243 sec, Total time: 0.072430 sec
+---
+Particles: 2000, Threads: 16
+Avg time: 0.007877 sec, Total time: 0.078770 sec
+---
+Particles: 3000, Threads: 16
+Avg time: 0.009254 sec, Total time: 0.092544 sec
+---
+Particles: 4000, Threads: 16
+Avg time: 0.011217 sec, Total time: 0.112170 sec
+---
+Particles: 5000, Threads: 16
+Avg time: 0.013580 sec, Total time: 0.135804 sec
+---
+Particles: 6000, Threads: 16
+Avg time: 0.016452 sec, Total time: 0.164517 sec
+---
+Particles: 7000, Threads: 16
+Avg time: 0.019874 sec, Total time: 0.198735 sec
+---
+Particles: 8000, Threads: 16
+Avg time: 0.023736 sec, Total time: 0.237362 sec
+---
+Particles: 9000, Threads: 16
+Avg time: 0.028216 sec, Total time: 0.282161 sec
+---
+Particles: 10000, Threads: 16
+Avg time: 0.033467 sec, Total time: 0.334675 sec
+---
+Particles: 20000, Threads: 16
+Avg time: 0.112120 sec, Total time: 1.121196 sec
+---
+Particles: 30000, Threads: 16
+Avg time: 0.245374 sec, Total time: 2.453735 sec
+---
+Particles: 40000, Threads: 16
+Avg time: 0.428456 sec, Total time: 4.284556 sec
+---
+Particles: 50000, Threads: 16
+Avg time: 0.663611 sec, Total time: 6.636113 sec
+---
+Particles: 60000, Threads: 16
+Avg time: 0.943328 sec, Total time: 9.433280 sec
+---
+Particles: 70000, Threads: 16
+Avg time: 1.293216 sec, Total time: 12.932160 sec
+---
+Particles: 80000, Threads: 16
+Avg time: 1.686681 sec, Total time: 16.866807 sec
+---
+Particles: 90000, Threads: 16
+Avg time: 2.134054 sec, Total time: 21.340543 sec
+---
+Particles: 100000, Threads: 16
+Avg time: 2.630577 sec, Total time: 26.305772 sec
+---
+Particles: 1000, Threads: 32
+Avg time: 0.007193 sec, Total time: 0.071928 sec
+---
+Particles: 2000, Threads: 32
+Avg time: 0.007935 sec, Total time: 0.079355 sec
+---
+Particles: 3000, Threads: 32
+Avg time: 0.009178 sec, Total time: 0.091779 sec
+---
+Particles: 4000, Threads: 32
+Avg time: 0.010913 sec, Total time: 0.109125 sec
+---
+Particles: 5000, Threads: 32
+Avg time: 0.013345 sec, Total time: 0.133447 sec
+---
+Particles: 6000, Threads: 32
+Avg time: 0.016102 sec, Total time: 0.161022 sec
+---
+Particles: 7000, Threads: 32
+Avg time: 0.019353 sec, Total time: 0.193528 sec
+---
+Particles: 8000, Threads: 32
+Avg time: 0.023140 sec, Total time: 0.231400 sec
+---
+Particles: 9000, Threads: 32
+Avg time: 0.027588 sec, Total time: 0.275884 sec
+---
+Particles: 10000, Threads: 32
+Avg time: 0.032407 sec, Total time: 0.324068 sec
+---
+Particles: 20000, Threads: 32
+Avg time: 0.108469 sec, Total time: 1.084690 sec
+---
+Particles: 30000, Threads: 32
+Avg time: 0.235541 sec, Total time: 2.355408 sec
+---
+Particles: 40000, Threads: 32
+Avg time: 0.414090 sec, Total time: 4.140895 sec
+---
+Particles: 50000, Threads: 32
+Avg time: 0.641308 sec, Total time: 6.413077 sec
+---
+Particles: 60000, Threads: 32
+Avg time: 0.920206 sec, Total time: 9.202058 sec
+---
+Particles: 70000, Threads: 32
+Avg time: 1.250319 sec, Total time: 12.503192 sec
+---
+Particles: 80000, Threads: 32
+Avg time: 1.631695 sec, Total time: 16.316952 sec
+---
+Particles: 90000, Threads: 32
+Avg time: 2.063253 sec, Total time: 20.632529 sec
+---
+Particles: 100000, Threads: 32
+Avg time: 2.544863 sec, Total time: 25.448632 sec
+---
