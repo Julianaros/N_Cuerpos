@@ -1,0 +1,271 @@
+=== N-Body MPI Benchmark Results ===
+Date: Mon Jun 30 07:29:24 UTC 2025
+=======================================
+
+Particles: 1000, Processes: 4
+Avg time: 0.000995 sec, Total time: 0.009952 sec
+---
+Particles: 2000, Processes: 4
+Avg time: 0.007342 sec, Total time: 0.073423 sec
+---
+Particles: 3000, Processes: 4
+Avg time: 0.008634 sec, Total time: 0.086341 sec
+---
+Particles: 4000, Processes: 4
+Avg time: 0.015330 sec, Total time: 0.153304 sec
+---
+Particles: 5000, Processes: 4
+Avg time: 0.024020 sec, Total time: 0.240203 sec
+---
+Particles: 6000, Processes: 4
+Avg time: 0.034448 sec, Total time: 0.344476 sec
+---
+Particles: 7000, Processes: 4
+Avg time: 0.046848 sec, Total time: 0.468480 sec
+---
+Particles: 8000, Processes: 4
+Avg time: 0.061220 sec, Total time: 0.612195 sec
+---
+Particles: 9000, Processes: 4
+Avg time: 0.077477 sec, Total time: 0.774771 sec
+---
+Particles: 10000, Processes: 4
+Avg time: 0.095637 sec, Total time: 0.956372 sec
+---
+Particles: 20000, Processes: 4
+Avg time: 0.385645 sec, Total time: 3.856453 sec
+---
+Particles: 30000, Processes: 4
+Avg time: 0.876720 sec, Total time: 8.767199 sec
+---
+Particles: 40000, Processes: 4
+Avg time: 1.543335 sec, Total time: 15.433351 sec
+---
+Particles: 50000, Processes: 4
+Avg time: 2.406172 sec, Total time: 24.061724 sec
+---
+Particles: 60000, Processes: 4
+Avg time: 3.466126 sec, Total time: 34.661260 sec
+---
+Particles: 70000, Processes: 4
+Avg time: 4.718524 sec, Total time: 47.185236 sec
+---
+Particles: 80000, Processes: 4
+Avg time: 6.150014 sec, Total time: 61.500141 sec
+---
+Particles: 90000, Processes: 4
+Avg time: 7.801006 sec, Total time: 78.010059 sec
+---
+Particles: 100000, Processes: 4
+Avg time: 9.637078 sec, Total time: 96.370778 sec
+---
+Particles: 1000, Processes: 8
+Avg time: 0.000509 sec, Total time: 0.005095 sec
+---
+Particles: 2000, Processes: 8
+Avg time: 0.001963 sec, Total time: 0.019625 sec
+---
+Particles: 3000, Processes: 8
+Avg time: 0.006412 sec, Total time: 0.064117 sec
+---
+Particles: 4000, Processes: 8
+Avg time: 0.007717 sec, Total time: 0.077169 sec
+---
+Particles: 5000, Processes: 8
+Avg time: 0.012012 sec, Total time: 0.120117 sec
+---
+Particles: 6000, Processes: 8
+Avg time: 0.017320 sec, Total time: 0.173198 sec
+---
+Particles: 7000, Processes: 8
+Avg time: 0.025521 sec, Total time: 0.255209 sec
+---
+Particles: 8000, Processes: 8
+Avg time: 0.030691 sec, Total time: 0.306906 sec
+---
+Particles: 9000, Processes: 8
+Avg time: 0.038881 sec, Total time: 0.388807 sec
+---
+Particles: 10000, Processes: 8
+Avg time: 0.048009 sec, Total time: 0.480089 sec
+---
+Particles: 20000, Processes: 8
+Avg time: 0.192850 sec, Total time: 1.928504 sec
+---
+Particles: 30000, Processes: 8
+Avg time: 0.438776 sec, Total time: 4.387755 sec
+---
+Particles: 40000, Processes: 8
+Avg time: 0.773033 sec, Total time: 7.730327 sec
+---
+Particles: 50000, Processes: 8
+Avg time: 1.204688 sec, Total time: 12.046878 sec
+---
+Particles: 60000, Processes: 8
+Avg time: 1.734918 sec, Total time: 17.349175 sec
+---
+Particles: 70000, Processes: 8
+Avg time: 2.365158 sec, Total time: 23.651584 sec
+---
+Particles: 80000, Processes: 8
+Avg time: 3.109761 sec, Total time: 31.097611 sec
+---
+Particles: 90000, Processes: 8
+Avg time: 4.046700 sec, Total time: 40.466997 sec
+---
+Particles: 100000, Processes: 8
+Avg time: 5.144413 sec, Total time: 51.444127 sec
+---
+Particles: 1000, Processes: 16
+Avg time: 0.000494 sec, Total time: 0.004936 sec
+---
+Particles: 2000, Processes: 16
+Avg time: 0.001958 sec, Total time: 0.019575 sec
+---
+Particles: 3000, Processes: 16
+Avg time: 0.004395 sec, Total time: 0.043947 sec
+---
+Particles: 4000, Processes: 16
+Avg time: 0.007447 sec, Total time: 0.074472 sec
+---
+Particles: 5000, Processes: 16
+Avg time: 0.011628 sec, Total time: 0.116283 sec
+---
+Particles: 6000, Processes: 16
+Avg time: 0.015349 sec, Total time: 0.153485 sec
+---
+Particles: 7000, Processes: 16
+Avg time: 0.021320 sec, Total time: 0.213203 sec
+---
+Particles: 8000, Processes: 16
+Avg time: 0.020305 sec, Total time: 0.203047 sec
+---
+Particles: 9000, Processes: 16
+Avg time: 0.022981 sec, Total time: 0.229811 sec
+---
+Particles: 10000, Processes: 16
+Avg time: 0.027172 sec, Total time: 0.271718 sec
+---
+Particles: 20000, Processes: 16
+Avg time: 0.096473 sec, Total time: 0.964726 sec
+---
+Particles: 30000, Processes: 16
+Avg time: 0.221614 sec, Total time: 2.216136 sec
+---
+Particles: 40000, Processes: 16
+Avg time: 0.387273 sec, Total time: 3.872731 sec
+---
+Particles: 50000, Processes: 16
+Avg time: 0.607342 sec, Total time: 6.073420 sec
+---
+Particles: 60000, Processes: 16
+Avg time: 0.917956 sec, Total time: 9.179560 sec
+---
+Particles: 70000, Processes: 16
+Avg time: 1.396360 sec, Total time: 13.963599 sec
+---
+Particles: 80000, Processes: 16
+Avg time: 2.100318 sec, Total time: 21.003178 sec
+---
+Particles: 90000, Processes: 16
+Avg time: 2.852056 sec, Total time: 28.520560 sec
+---
+Particles: 100000, Processes: 16
+Avg time: 3.737469 sec, Total time: 37.374691 sec
+---
+Particles: 1000, Processes: 32
+Avg time: 0.000486 sec, Total time: 0.004864 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 2000, Processes: 32
+Avg time: 0.001224 sec, Total time: 0.012236 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 3000, Processes: 32
+Avg time: 0.002654 sec, Total time: 0.026542 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 4000, Processes: 32
+Avg time: 0.003852 sec, Total time: 0.038522 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 5000, Processes: 32
+Avg time: 0.008570 sec, Total time: 0.085703 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 6000, Processes: 32
+Avg time: 0.009037 sec, Total time: 0.090369 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 7000, Processes: 32
+Avg time: 0.012424 sec, Total time: 0.124241 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 8000, Processes: 32
+Avg time: 0.014997 sec, Total time: 0.149971 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 9000, Processes: 32
+Avg time: 0.019245 sec, Total time: 0.192451 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 10000, Processes: 32
+Avg time: 0.028579 sec, Total time: 0.285791 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 20000, Processes: 32
+Avg time: 0.093029 sec, Total time: 0.930293 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 30000, Processes: 32
+Avg time: 0.213368 sec, Total time: 2.133677 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 40000, Processes: 32
+Avg time: 0.431589 sec, Total time: 4.315887 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 50000, Processes: 32
+Avg time: 0.737005 sec, Total time: 7.370053 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 60000, Processes: 32
+Avg time: 1.140983 sec, Total time: 11.409829 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 70000, Processes: 32
+Avg time: 1.622299 sec, Total time: 16.222990 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 80000, Processes: 32
+Avg time: 2.202312 sec, Total time: 22.023124 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 90000, Processes: 32
+Avg time: 2.850271 sec, Total time: 28.502706 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+Particles: 100000, Processes: 32
+Avg time: 3.592820 sec, Total time: 35.928199 sec
+Note: Used --oversubscribe (hyperthreading)
+---
+
+=== SUMMARY STATISTICS ===
+Date: Mon Jun 30 07:46:21 UTC 2025
+
+Performance summary by process count:
+Processes: 4
+  Avg iteration time - Min: 0.000995, Max: 9.637078, Mean: 1.966135 (19 samples)
+Processes: 8
+  Avg iteration time - Min: 0.000509, Max: 5.144413, Mean: 1.010491 (19 samples)
+Processes: 16
+  Avg iteration time - Min: 0.000494, Max: 3.737469, Mean: 0.655258 (19 samples)
+Processes: 32
+  Avg iteration time - Min: 0.000486, Max: 3.592820, Mean: 0.683408 (19 samples)
+
+=== SCALING ANALYSIS ===
+Speedup analysis (compared to 4 processes baseline):
+Baseline (10000 particles, 4 processes): 0.095637 seconds
+  8 processes: 0.048009s, Speedup: 1.99x, Efficiency: 24.9%
+  16 processes: 0.027172s, Speedup: 3.52x, Efficiency: 22.0%
+  32 processes: 0.028579s, Speedup: 3.35x, Efficiency: 10.5%
