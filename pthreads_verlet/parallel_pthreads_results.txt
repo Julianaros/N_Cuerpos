@@ -1,0 +1,2816 @@
+=== N-Body Pthreads Benchmark Results ===
+Date: Mon Jun 30 06:04:38 UTC 2025
+==========================================
+
+Particles: 1000, Threads: 4
+Avg time: 0.001431 sec, Total time: 0.014314 sec
+Full output:
+Pthreads particle generation using 4 threads
+1000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 1000 particles is: 0.000141 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 1000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.001542 seconds
+Iteration 2 of 10 completed in 0.001379 seconds
+Iteration 3 of 10 completed in 0.001482 seconds
+Iteration 4 of 10 completed in 0.001400 seconds
+Iteration 5 of 10 completed in 0.001384 seconds
+Iteration 6 of 10 completed in 0.001409 seconds
+Iteration 7 of 10 completed in 0.001458 seconds
+Iteration 8 of 10 completed in 0.001414 seconds
+Iteration 9 of 10 completed in 0.001432 seconds
+Iteration 10 of 10 completed in 0.001399 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.001431 seconds
+Total simulation time: 0.014314 seconds
+Particles processed: 1000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 2000, Threads: 4
+Avg time: 0.004331 sec, Total time: 0.043305 sec
+Full output:
+Pthreads particle generation using 4 threads
+2000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 2000 particles is: 0.000151 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 2000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.004324 seconds
+Iteration 2 of 10 completed in 0.004337 seconds
+Iteration 3 of 10 completed in 0.004343 seconds
+Iteration 4 of 10 completed in 0.004333 seconds
+Iteration 5 of 10 completed in 0.004322 seconds
+Iteration 6 of 10 completed in 0.004313 seconds
+Iteration 7 of 10 completed in 0.004304 seconds
+Iteration 8 of 10 completed in 0.004312 seconds
+Iteration 9 of 10 completed in 0.004382 seconds
+Iteration 10 of 10 completed in 0.004324 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.004331 seconds
+Total simulation time: 0.043305 seconds
+Particles processed: 2000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 3000, Threads: 4
+Avg time: 0.009156 sec, Total time: 0.091556 sec
+Full output:
+Pthreads particle generation using 4 threads
+3000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 3000 particles is: 0.000173 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 3000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.009189 seconds
+Iteration 2 of 10 completed in 0.009134 seconds
+Iteration 3 of 10 completed in 0.009149 seconds
+Iteration 4 of 10 completed in 0.009144 seconds
+Iteration 5 of 10 completed in 0.009153 seconds
+Iteration 6 of 10 completed in 0.009150 seconds
+Iteration 7 of 10 completed in 0.009143 seconds
+Iteration 8 of 10 completed in 0.009168 seconds
+Iteration 9 of 10 completed in 0.009141 seconds
+Iteration 10 of 10 completed in 0.009173 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.009156 seconds
+Total simulation time: 0.091556 seconds
+Particles processed: 3000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 4000, Threads: 4
+Avg time: 0.015875 sec, Total time: 0.158748 sec
+Full output:
+Pthreads particle generation using 4 threads
+4000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 4000 particles is: 0.000184 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 4000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.015872 seconds
+Iteration 2 of 10 completed in 0.015885 seconds
+Iteration 3 of 10 completed in 0.015826 seconds
+Iteration 4 of 10 completed in 0.015865 seconds
+Iteration 5 of 10 completed in 0.015896 seconds
+Iteration 6 of 10 completed in 0.015856 seconds
+Iteration 7 of 10 completed in 0.015890 seconds
+Iteration 8 of 10 completed in 0.015840 seconds
+Iteration 9 of 10 completed in 0.015882 seconds
+Iteration 10 of 10 completed in 0.015921 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.015875 seconds
+Total simulation time: 0.158748 seconds
+Particles processed: 4000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 5000, Threads: 4
+Avg time: 0.024493 sec, Total time: 0.244932 sec
+Full output:
+Pthreads particle generation using 4 threads
+5000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 5000 particles is: 0.000193 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 5000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.024512 seconds
+Iteration 2 of 10 completed in 0.024560 seconds
+Iteration 3 of 10 completed in 0.024466 seconds
+Iteration 4 of 10 completed in 0.024521 seconds
+Iteration 5 of 10 completed in 0.024495 seconds
+Iteration 6 of 10 completed in 0.024486 seconds
+Iteration 7 of 10 completed in 0.024415 seconds
+Iteration 8 of 10 completed in 0.024493 seconds
+Iteration 9 of 10 completed in 0.024476 seconds
+Iteration 10 of 10 completed in 0.024494 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.024493 seconds
+Total simulation time: 0.244932 seconds
+Particles processed: 5000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 6000, Threads: 4
+Avg time: 0.034977 sec, Total time: 0.349772 sec
+Full output:
+Pthreads particle generation using 4 threads
+6000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 6000 particles is: 0.000200 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 6000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.034947 seconds
+Iteration 2 of 10 completed in 0.035015 seconds
+Iteration 3 of 10 completed in 0.034938 seconds
+Iteration 4 of 10 completed in 0.035211 seconds
+Iteration 5 of 10 completed in 0.034936 seconds
+Iteration 6 of 10 completed in 0.034886 seconds
+Iteration 7 of 10 completed in 0.034954 seconds
+Iteration 8 of 10 completed in 0.034979 seconds
+Iteration 9 of 10 completed in 0.034955 seconds
+Iteration 10 of 10 completed in 0.034933 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.034977 seconds
+Total simulation time: 0.349772 seconds
+Particles processed: 6000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 7000, Threads: 4
+Avg time: 0.047360 sec, Total time: 0.473602 sec
+Full output:
+Pthreads particle generation using 4 threads
+7000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 7000 particles is: 0.000220 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 7000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.047391 seconds
+Iteration 2 of 10 completed in 0.047377 seconds
+Iteration 3 of 10 completed in 0.047319 seconds
+Iteration 4 of 10 completed in 0.047345 seconds
+Iteration 5 of 10 completed in 0.047435 seconds
+Iteration 6 of 10 completed in 0.047332 seconds
+Iteration 7 of 10 completed in 0.047304 seconds
+Iteration 8 of 10 completed in 0.047295 seconds
+Iteration 9 of 10 completed in 0.047413 seconds
+Iteration 10 of 10 completed in 0.047375 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.047360 seconds
+Total simulation time: 0.473602 seconds
+Particles processed: 7000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 8000, Threads: 4
+Avg time: 0.061736 sec, Total time: 0.617358 sec
+Full output:
+Pthreads particle generation using 4 threads
+8000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 8000 particles is: 0.000227 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 8000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.061763 seconds
+Iteration 2 of 10 completed in 0.061842 seconds
+Iteration 3 of 10 completed in 0.061655 seconds
+Iteration 4 of 10 completed in 0.061684 seconds
+Iteration 5 of 10 completed in 0.061635 seconds
+Iteration 6 of 10 completed in 0.061851 seconds
+Iteration 7 of 10 completed in 0.061664 seconds
+Iteration 8 of 10 completed in 0.061620 seconds
+Iteration 9 of 10 completed in 0.061976 seconds
+Iteration 10 of 10 completed in 0.061651 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.061736 seconds
+Total simulation time: 0.617358 seconds
+Particles processed: 8000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 9000, Threads: 4
+Avg time: 0.077883 sec, Total time: 0.778832 sec
+Full output:
+Pthreads particle generation using 4 threads
+9000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 9000 particles is: 0.000238 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 9000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.077941 seconds
+Iteration 2 of 10 completed in 0.077883 seconds
+Iteration 3 of 10 completed in 0.077810 seconds
+Iteration 4 of 10 completed in 0.077812 seconds
+Iteration 5 of 10 completed in 0.077891 seconds
+Iteration 6 of 10 completed in 0.077834 seconds
+Iteration 7 of 10 completed in 0.078079 seconds
+Iteration 8 of 10 completed in 0.077789 seconds
+Iteration 9 of 10 completed in 0.077959 seconds
+Iteration 10 of 10 completed in 0.077817 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.077883 seconds
+Total simulation time: 0.778832 seconds
+Particles processed: 9000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 10000, Threads: 4
+Avg time: 0.096102 sec, Total time: 0.961023 sec
+Full output:
+Pthreads particle generation using 4 threads
+10000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 10000 particles is: 0.000254 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 10000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.096145 seconds
+Iteration 2 of 10 completed in 0.095917 seconds
+Iteration 3 of 10 completed in 0.096301 seconds
+Iteration 4 of 10 completed in 0.096192 seconds
+Iteration 5 of 10 completed in 0.096029 seconds
+Iteration 6 of 10 completed in 0.096015 seconds
+Iteration 7 of 10 completed in 0.096073 seconds
+Iteration 8 of 10 completed in 0.096178 seconds
+Iteration 9 of 10 completed in 0.095910 seconds
+Iteration 10 of 10 completed in 0.096245 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.096102 seconds
+Total simulation time: 0.961023 seconds
+Particles processed: 10000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 20000, Threads: 4
+Avg time: 0.383076 sec, Total time: 3.830757 sec
+Full output:
+Pthreads particle generation using 4 threads
+20000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 20000 particles is: 0.000368 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 20000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.382793 seconds
+Iteration 2 of 10 completed in 0.382860 seconds
+Iteration 3 of 10 completed in 0.382593 seconds
+Iteration 4 of 10 completed in 0.383412 seconds
+Iteration 5 of 10 completed in 0.382903 seconds
+Iteration 6 of 10 completed in 0.382873 seconds
+Iteration 7 of 10 completed in 0.382498 seconds
+Iteration 8 of 10 completed in 0.382987 seconds
+Iteration 9 of 10 completed in 0.383148 seconds
+Iteration 10 of 10 completed in 0.384669 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.383076 seconds
+Total simulation time: 3.830757 seconds
+Particles processed: 20000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 30000, Threads: 4
+Avg time: 0.875136 sec, Total time: 8.751363 sec
+Full output:
+Pthreads particle generation using 4 threads
+30000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 30000 particles is: 0.000509 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 30000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 0.875803 seconds
+Iteration 2 of 10 completed in 0.876240 seconds
+Iteration 3 of 10 completed in 0.876127 seconds
+Iteration 4 of 10 completed in 0.875976 seconds
+Iteration 5 of 10 completed in 0.874751 seconds
+Iteration 6 of 10 completed in 0.876100 seconds
+Iteration 7 of 10 completed in 0.875952 seconds
+Iteration 8 of 10 completed in 0.876031 seconds
+Iteration 9 of 10 completed in 0.874333 seconds
+Iteration 10 of 10 completed in 0.870019 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.875136 seconds
+Total simulation time: 8.751363 seconds
+Particles processed: 30000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 40000, Threads: 4
+Avg time: 1.535365 sec, Total time: 15.353649 sec
+Full output:
+Pthreads particle generation using 4 threads
+40000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 40000 particles is: 0.000619 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 40000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 1.535750 seconds
+Iteration 2 of 10 completed in 1.536812 seconds
+Iteration 3 of 10 completed in 1.535131 seconds
+Iteration 4 of 10 completed in 1.532998 seconds
+Iteration 5 of 10 completed in 1.535185 seconds
+Iteration 6 of 10 completed in 1.534548 seconds
+Iteration 7 of 10 completed in 1.534865 seconds
+Iteration 8 of 10 completed in 1.535718 seconds
+Iteration 9 of 10 completed in 1.536615 seconds
+Iteration 10 of 10 completed in 1.536001 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.535365 seconds
+Total simulation time: 15.353649 seconds
+Particles processed: 40000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 50000, Threads: 4
+Avg time: 2.392728 sec, Total time: 23.927275 sec
+Full output:
+Pthreads particle generation using 4 threads
+50000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 50000 particles is: 0.000757 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 50000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 2.393524 seconds
+Iteration 2 of 10 completed in 2.393290 seconds
+Iteration 3 of 10 completed in 2.395694 seconds
+Iteration 4 of 10 completed in 2.388036 seconds
+Iteration 5 of 10 completed in 2.393958 seconds
+Iteration 6 of 10 completed in 2.394368 seconds
+Iteration 7 of 10 completed in 2.388014 seconds
+Iteration 8 of 10 completed in 2.396813 seconds
+Iteration 9 of 10 completed in 2.389529 seconds
+Iteration 10 of 10 completed in 2.394022 seconds
+
+=== Performance Summary ===
+Avg iteration time: 2.392728 seconds
+Total simulation time: 23.927275 seconds
+Particles processed: 50000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 60000, Threads: 4
+Avg time: 3.443885 sec, Total time: 34.438854 sec
+Full output:
+Pthreads particle generation using 4 threads
+60000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 60000 particles is: 0.000858 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 60000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 3.445049 seconds
+Iteration 2 of 10 completed in 3.446060 seconds
+Iteration 3 of 10 completed in 3.438288 seconds
+Iteration 4 of 10 completed in 3.447897 seconds
+Iteration 5 of 10 completed in 3.440313 seconds
+Iteration 6 of 10 completed in 3.445256 seconds
+Iteration 7 of 10 completed in 3.443957 seconds
+Iteration 8 of 10 completed in 3.442741 seconds
+Iteration 9 of 10 completed in 3.446074 seconds
+Iteration 10 of 10 completed in 3.443189 seconds
+
+=== Performance Summary ===
+Avg iteration time: 3.443885 seconds
+Total simulation time: 34.438854 seconds
+Particles processed: 60000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 70000, Threads: 4
+Avg time: 4.687260 sec, Total time: 46.872603 sec
+Full output:
+Pthreads particle generation using 4 threads
+70000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 70000 particles is: 0.000989 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 70000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 4.691503 seconds
+Iteration 2 of 10 completed in 4.685082 seconds
+Iteration 3 of 10 completed in 4.686789 seconds
+Iteration 4 of 10 completed in 4.683732 seconds
+Iteration 5 of 10 completed in 4.693222 seconds
+Iteration 6 of 10 completed in 4.688597 seconds
+Iteration 7 of 10 completed in 4.690087 seconds
+Iteration 8 of 10 completed in 4.679561 seconds
+Iteration 9 of 10 completed in 4.689717 seconds
+Iteration 10 of 10 completed in 4.684284 seconds
+
+=== Performance Summary ===
+Avg iteration time: 4.687260 seconds
+Total simulation time: 46.872603 seconds
+Particles processed: 70000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 80000, Threads: 4
+Avg time: 6.120752 sec, Total time: 61.207520 sec
+Full output:
+Pthreads particle generation using 4 threads
+80000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 80000 particles is: 0.001094 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 80000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 6.121976 seconds
+Iteration 2 of 10 completed in 6.125684 seconds
+Iteration 3 of 10 completed in 6.119971 seconds
+Iteration 4 of 10 completed in 6.127025 seconds
+Iteration 5 of 10 completed in 6.122706 seconds
+Iteration 6 of 10 completed in 6.109789 seconds
+Iteration 7 of 10 completed in 6.117362 seconds
+Iteration 8 of 10 completed in 6.115394 seconds
+Iteration 9 of 10 completed in 6.129152 seconds
+Iteration 10 of 10 completed in 6.118430 seconds
+
+=== Performance Summary ===
+Avg iteration time: 6.120752 seconds
+Total simulation time: 61.207520 seconds
+Particles processed: 80000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 90000, Threads: 4
+Avg time: 7.746000 sec, Total time: 77.459996 sec
+Full output:
+Pthreads particle generation using 4 threads
+90000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 90000 particles is: 0.001238 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 90000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 7.748972 seconds
+Iteration 2 of 10 completed in 7.749128 seconds
+Iteration 3 of 10 completed in 7.729759 seconds
+Iteration 4 of 10 completed in 7.751454 seconds
+Iteration 5 of 10 completed in 7.749562 seconds
+Iteration 6 of 10 completed in 7.751713 seconds
+Iteration 7 of 10 completed in 7.741378 seconds
+Iteration 8 of 10 completed in 7.748077 seconds
+Iteration 9 of 10 completed in 7.750286 seconds
+Iteration 10 of 10 completed in 7.739638 seconds
+
+=== Performance Summary ===
+Avg iteration time: 7.746000 seconds
+Total simulation time: 77.459996 seconds
+Particles processed: 90000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 100000, Threads: 4
+Avg time: 9.564124 sec, Total time: 95.641242 sec
+Full output:
+Pthreads particle generation using 4 threads
+100000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 100000 particles is: 0.001307 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 4
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 100000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+===========================================================
+Iteration 1 of 10 completed in 9.558278 seconds
+Iteration 2 of 10 completed in 9.561257 seconds
+Iteration 3 of 10 completed in 9.573233 seconds
+Iteration 4 of 10 completed in 9.558014 seconds
+Iteration 5 of 10 completed in 9.562729 seconds
+Iteration 6 of 10 completed in 9.569490 seconds
+Iteration 7 of 10 completed in 9.561586 seconds
+Iteration 8 of 10 completed in 9.565894 seconds
+Iteration 9 of 10 completed in 9.563084 seconds
+Iteration 10 of 10 completed in 9.567646 seconds
+
+=== Performance Summary ===
+Avg iteration time: 9.564124 seconds
+Total simulation time: 95.641242 seconds
+Particles processed: 100000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 4
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 1000, Threads: 8
+Avg time: 0.001373 sec, Total time: 0.013731 sec
+Full output:
+Pthreads particle generation using 8 threads
+1000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 1000 particles is: 0.000245 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 1000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.001380 seconds
+Iteration 2 of 10 completed in 0.001424 seconds
+Iteration 3 of 10 completed in 0.001412 seconds
+Iteration 4 of 10 completed in 0.001368 seconds
+Iteration 5 of 10 completed in 0.001428 seconds
+Iteration 6 of 10 completed in 0.001312 seconds
+Iteration 7 of 10 completed in 0.001369 seconds
+Iteration 8 of 10 completed in 0.001367 seconds
+Iteration 9 of 10 completed in 0.001329 seconds
+Iteration 10 of 10 completed in 0.001311 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.001373 seconds
+Total simulation time: 0.013731 seconds
+Particles processed: 1000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 2000, Threads: 8
+Avg time: 0.002832 sec, Total time: 0.028323 sec
+Full output:
+Pthreads particle generation using 8 threads
+2000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 2000 particles is: 0.000263 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 2000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.002830 seconds
+Iteration 2 of 10 completed in 0.002804 seconds
+Iteration 3 of 10 completed in 0.002824 seconds
+Iteration 4 of 10 completed in 0.002823 seconds
+Iteration 5 of 10 completed in 0.002834 seconds
+Iteration 6 of 10 completed in 0.002849 seconds
+Iteration 7 of 10 completed in 0.002806 seconds
+Iteration 8 of 10 completed in 0.002820 seconds
+Iteration 9 of 10 completed in 0.002864 seconds
+Iteration 10 of 10 completed in 0.002848 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.002832 seconds
+Total simulation time: 0.028323 seconds
+Particles processed: 2000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 3000, Threads: 8
+Avg time: 0.005251 sec, Total time: 0.052507 sec
+Full output:
+Pthreads particle generation using 8 threads
+3000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 3000 particles is: 0.000270 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 3000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.005249 seconds
+Iteration 2 of 10 completed in 0.005220 seconds
+Iteration 3 of 10 completed in 0.005256 seconds
+Iteration 4 of 10 completed in 0.005247 seconds
+Iteration 5 of 10 completed in 0.005247 seconds
+Iteration 6 of 10 completed in 0.005279 seconds
+Iteration 7 of 10 completed in 0.005182 seconds
+Iteration 8 of 10 completed in 0.005260 seconds
+Iteration 9 of 10 completed in 0.005305 seconds
+Iteration 10 of 10 completed in 0.005243 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.005251 seconds
+Total simulation time: 0.052507 seconds
+Particles processed: 3000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 4000, Threads: 8
+Avg time: 0.008739 sec, Total time: 0.087393 sec
+Full output:
+Pthreads particle generation using 8 threads
+4000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 4000 particles is: 0.000361 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 4000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.008714 seconds
+Iteration 2 of 10 completed in 0.008639 seconds
+Iteration 3 of 10 completed in 0.008669 seconds
+Iteration 4 of 10 completed in 0.008663 seconds
+Iteration 5 of 10 completed in 0.008604 seconds
+Iteration 6 of 10 completed in 0.008628 seconds
+Iteration 7 of 10 completed in 0.008657 seconds
+Iteration 8 of 10 completed in 0.008776 seconds
+Iteration 9 of 10 completed in 0.008712 seconds
+Iteration 10 of 10 completed in 0.009312 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.008739 seconds
+Total simulation time: 0.087393 seconds
+Particles processed: 4000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 5000, Threads: 8
+Avg time: 0.013028 sec, Total time: 0.130284 sec
+Full output:
+Pthreads particle generation using 8 threads
+5000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 5000 particles is: 0.000261 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 5000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.013022 seconds
+Iteration 2 of 10 completed in 0.012996 seconds
+Iteration 3 of 10 completed in 0.013076 seconds
+Iteration 4 of 10 completed in 0.013048 seconds
+Iteration 5 of 10 completed in 0.013061 seconds
+Iteration 6 of 10 completed in 0.012963 seconds
+Iteration 7 of 10 completed in 0.012955 seconds
+Iteration 8 of 10 completed in 0.013001 seconds
+Iteration 9 of 10 completed in 0.013029 seconds
+Iteration 10 of 10 completed in 0.013114 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.013028 seconds
+Total simulation time: 0.130284 seconds
+Particles processed: 5000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 6000, Threads: 8
+Avg time: 0.019830 sec, Total time: 0.198296 sec
+Full output:
+Pthreads particle generation using 8 threads
+6000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 6000 particles is: 0.000266 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 6000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.018329 seconds
+Iteration 2 of 10 completed in 0.018348 seconds
+Iteration 3 of 10 completed in 0.033873 seconds
+Iteration 4 of 10 completed in 0.018315 seconds
+Iteration 5 of 10 completed in 0.018250 seconds
+Iteration 6 of 10 completed in 0.018171 seconds
+Iteration 7 of 10 completed in 0.018282 seconds
+Iteration 8 of 10 completed in 0.018244 seconds
+Iteration 9 of 10 completed in 0.018232 seconds
+Iteration 10 of 10 completed in 0.018232 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.019830 seconds
+Total simulation time: 0.198296 seconds
+Particles processed: 6000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 7000, Threads: 8
+Avg time: 0.026619 sec, Total time: 0.266185 sec
+Full output:
+Pthreads particle generation using 8 threads
+7000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 7000 particles is: 0.000272 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 7000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.024444 seconds
+Iteration 2 of 10 completed in 0.024529 seconds
+Iteration 3 of 10 completed in 0.024530 seconds
+Iteration 4 of 10 completed in 0.024558 seconds
+Iteration 5 of 10 completed in 0.024435 seconds
+Iteration 6 of 10 completed in 0.045795 seconds
+Iteration 7 of 10 completed in 0.024435 seconds
+Iteration 8 of 10 completed in 0.024523 seconds
+Iteration 9 of 10 completed in 0.024499 seconds
+Iteration 10 of 10 completed in 0.024419 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.026619 seconds
+Total simulation time: 0.266185 seconds
+Particles processed: 7000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 8000, Threads: 8
+Avg time: 0.035261 sec, Total time: 0.352608 sec
+Full output:
+Pthreads particle generation using 8 threads
+8000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 8000 particles is: 0.000311 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 8000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.031625 seconds
+Iteration 2 of 10 completed in 0.031660 seconds
+Iteration 3 of 10 completed in 0.031638 seconds
+Iteration 4 of 10 completed in 0.031672 seconds
+Iteration 5 of 10 completed in 0.031699 seconds
+Iteration 6 of 10 completed in 0.031633 seconds
+Iteration 7 of 10 completed in 0.031669 seconds
+Iteration 8 of 10 completed in 0.059548 seconds
+Iteration 9 of 10 completed in 0.039848 seconds
+Iteration 10 of 10 completed in 0.031595 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.035261 seconds
+Total simulation time: 0.352608 seconds
+Particles processed: 8000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 9000, Threads: 8
+Avg time: 0.046893 sec, Total time: 0.468933 sec
+Full output:
+Pthreads particle generation using 8 threads
+9000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 9000 particles is: 0.000290 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 9000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.039762 seconds
+Iteration 2 of 10 completed in 0.039789 seconds
+Iteration 3 of 10 completed in 0.039961 seconds
+Iteration 4 of 10 completed in 0.039830 seconds
+Iteration 5 of 10 completed in 0.039749 seconds
+Iteration 6 of 10 completed in 0.075162 seconds
+Iteration 7 of 10 completed in 0.039811 seconds
+Iteration 8 of 10 completed in 0.075143 seconds
+Iteration 9 of 10 completed in 0.039843 seconds
+Iteration 10 of 10 completed in 0.039859 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.046893 seconds
+Total simulation time: 0.468933 seconds
+Particles processed: 9000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 10000, Threads: 8
+Avg time: 0.048864 sec, Total time: 0.488639 sec
+Full output:
+Pthreads particle generation using 8 threads
+10000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 10000 particles is: 0.000305 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 10000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.048967 seconds
+Iteration 2 of 10 completed in 0.048963 seconds
+Iteration 3 of 10 completed in 0.048850 seconds
+Iteration 4 of 10 completed in 0.048779 seconds
+Iteration 5 of 10 completed in 0.048876 seconds
+Iteration 6 of 10 completed in 0.048857 seconds
+Iteration 7 of 10 completed in 0.048818 seconds
+Iteration 8 of 10 completed in 0.049117 seconds
+Iteration 9 of 10 completed in 0.048716 seconds
+Iteration 10 of 10 completed in 0.048675 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.048864 seconds
+Total simulation time: 0.488639 seconds
+Particles processed: 10000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 20000, Threads: 8
+Avg time: 0.196348 sec, Total time: 1.963478 sec
+Full output:
+Pthreads particle generation using 8 threads
+20000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 20000 particles is: 0.000356 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 20000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.192513 seconds
+Iteration 2 of 10 completed in 0.194015 seconds
+Iteration 3 of 10 completed in 0.227818 seconds
+Iteration 4 of 10 completed in 0.192920 seconds
+Iteration 5 of 10 completed in 0.193277 seconds
+Iteration 6 of 10 completed in 0.192603 seconds
+Iteration 7 of 10 completed in 0.192432 seconds
+Iteration 8 of 10 completed in 0.192523 seconds
+Iteration 9 of 10 completed in 0.192500 seconds
+Iteration 10 of 10 completed in 0.192841 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.196348 seconds
+Total simulation time: 1.963478 seconds
+Particles processed: 20000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 30000, Threads: 8
+Avg time: 0.444733 sec, Total time: 4.447335 sec
+Full output:
+Pthreads particle generation using 8 threads
+30000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 30000 particles is: 0.000418 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 30000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.435023 seconds
+Iteration 2 of 10 completed in 0.481605 seconds
+Iteration 3 of 10 completed in 0.435248 seconds
+Iteration 4 of 10 completed in 0.436137 seconds
+Iteration 5 of 10 completed in 0.480344 seconds
+Iteration 6 of 10 completed in 0.435210 seconds
+Iteration 7 of 10 completed in 0.436037 seconds
+Iteration 8 of 10 completed in 0.436731 seconds
+Iteration 9 of 10 completed in 0.435683 seconds
+Iteration 10 of 10 completed in 0.435280 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.444733 seconds
+Total simulation time: 4.447335 seconds
+Particles processed: 30000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 40000, Threads: 8
+Avg time: 0.773778 sec, Total time: 7.737780 sec
+Full output:
+Pthreads particle generation using 8 threads
+40000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 40000 particles is: 0.000472 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 40000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 0.769892 seconds
+Iteration 2 of 10 completed in 0.770155 seconds
+Iteration 3 of 10 completed in 0.768924 seconds
+Iteration 4 of 10 completed in 0.812414 seconds
+Iteration 5 of 10 completed in 0.769446 seconds
+Iteration 6 of 10 completed in 0.769100 seconds
+Iteration 7 of 10 completed in 0.769090 seconds
+Iteration 8 of 10 completed in 0.769411 seconds
+Iteration 9 of 10 completed in 0.769205 seconds
+Iteration 10 of 10 completed in 0.770108 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.773778 seconds
+Total simulation time: 7.737780 seconds
+Particles processed: 40000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 50000, Threads: 8
+Avg time: 1.206260 sec, Total time: 12.062598 sec
+Full output:
+Pthreads particle generation using 8 threads
+50000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 50000 particles is: 0.000539 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 50000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 1.196021 seconds
+Iteration 2 of 10 completed in 1.197556 seconds
+Iteration 3 of 10 completed in 1.197347 seconds
+Iteration 4 of 10 completed in 1.199355 seconds
+Iteration 5 of 10 completed in 1.243063 seconds
+Iteration 6 of 10 completed in 1.240533 seconds
+Iteration 7 of 10 completed in 1.197955 seconds
+Iteration 8 of 10 completed in 1.196792 seconds
+Iteration 9 of 10 completed in 1.196617 seconds
+Iteration 10 of 10 completed in 1.197310 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.206260 seconds
+Total simulation time: 12.062598 seconds
+Particles processed: 50000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 60000, Threads: 8
+Avg time: 1.723099 sec, Total time: 17.230993 sec
+Full output:
+Pthreads particle generation using 8 threads
+60000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 60000 particles is: 0.000590 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 60000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 1.724950 seconds
+Iteration 2 of 10 completed in 1.724041 seconds
+Iteration 3 of 10 completed in 1.725532 seconds
+Iteration 4 of 10 completed in 1.722476 seconds
+Iteration 5 of 10 completed in 1.724114 seconds
+Iteration 6 of 10 completed in 1.724444 seconds
+Iteration 7 of 10 completed in 1.722215 seconds
+Iteration 8 of 10 completed in 1.722055 seconds
+Iteration 9 of 10 completed in 1.719753 seconds
+Iteration 10 of 10 completed in 1.721380 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.723099 seconds
+Total simulation time: 17.230993 seconds
+Particles processed: 60000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 70000, Threads: 8
+Avg time: 2.346855 sec, Total time: 23.468549 sec
+Full output:
+Pthreads particle generation using 8 threads
+70000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 70000 particles is: 0.000658 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 70000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 2.346572 seconds
+Iteration 2 of 10 completed in 2.346778 seconds
+Iteration 3 of 10 completed in 2.345152 seconds
+Iteration 4 of 10 completed in 2.344033 seconds
+Iteration 5 of 10 completed in 2.345058 seconds
+Iteration 6 of 10 completed in 2.346613 seconds
+Iteration 7 of 10 completed in 2.345922 seconds
+Iteration 8 of 10 completed in 2.350316 seconds
+Iteration 9 of 10 completed in 2.349989 seconds
+Iteration 10 of 10 completed in 2.348086 seconds
+
+=== Performance Summary ===
+Avg iteration time: 2.346855 seconds
+Total simulation time: 23.468549 seconds
+Particles processed: 70000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 80000, Threads: 8
+Avg time: 3.063759 sec, Total time: 30.637589 sec
+Full output:
+Pthreads particle generation using 8 threads
+80000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 80000 particles is: 0.000736 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 80000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 3.062025 seconds
+Iteration 2 of 10 completed in 3.063570 seconds
+Iteration 3 of 10 completed in 3.063943 seconds
+Iteration 4 of 10 completed in 3.065851 seconds
+Iteration 5 of 10 completed in 3.065311 seconds
+Iteration 6 of 10 completed in 3.069643 seconds
+Iteration 7 of 10 completed in 3.062316 seconds
+Iteration 8 of 10 completed in 3.060843 seconds
+Iteration 9 of 10 completed in 3.060632 seconds
+Iteration 10 of 10 completed in 3.063421 seconds
+
+=== Performance Summary ===
+Avg iteration time: 3.063759 seconds
+Total simulation time: 30.637589 seconds
+Particles processed: 80000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 90000, Threads: 8
+Avg time: 3.872651 sec, Total time: 38.726509 sec
+Full output:
+Pthreads particle generation using 8 threads
+90000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 90000 particles is: 0.000796 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 90000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 3.870038 seconds
+Iteration 2 of 10 completed in 3.875610 seconds
+Iteration 3 of 10 completed in 3.874630 seconds
+Iteration 4 of 10 completed in 3.871611 seconds
+Iteration 5 of 10 completed in 3.869576 seconds
+Iteration 6 of 10 completed in 3.872668 seconds
+Iteration 7 of 10 completed in 3.874907 seconds
+Iteration 8 of 10 completed in 3.869433 seconds
+Iteration 9 of 10 completed in 3.873818 seconds
+Iteration 10 of 10 completed in 3.874184 seconds
+
+=== Performance Summary ===
+Avg iteration time: 3.872651 seconds
+Total simulation time: 38.726509 seconds
+Particles processed: 90000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 100000, Threads: 8
+Avg time: 4.783994 sec, Total time: 47.839939 sec
+Full output:
+Pthreads particle generation using 8 threads
+100000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 100000 particles is: 0.000834 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 8
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 100000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+===========================================================
+Iteration 1 of 10 completed in 4.790410 seconds
+Iteration 2 of 10 completed in 4.781146 seconds
+Iteration 3 of 10 completed in 4.788342 seconds
+Iteration 4 of 10 completed in 4.790313 seconds
+Iteration 5 of 10 completed in 4.780021 seconds
+Iteration 6 of 10 completed in 4.782025 seconds
+Iteration 7 of 10 completed in 4.780829 seconds
+Iteration 8 of 10 completed in 4.781643 seconds
+Iteration 9 of 10 completed in 4.782814 seconds
+Iteration 10 of 10 completed in 4.782364 seconds
+
+=== Performance Summary ===
+Avg iteration time: 4.783994 seconds
+Total simulation time: 47.839939 seconds
+Particles processed: 100000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 8
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 1000, Threads: 16
+Avg time: 0.002013 sec, Total time: 0.020126 sec
+Full output:
+Pthreads particle generation using 16 threads
+1000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 1000 particles is: 0.000469 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 1000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.001792 seconds
+Iteration 2 of 10 completed in 0.001975 seconds
+Iteration 3 of 10 completed in 0.001875 seconds
+Iteration 4 of 10 completed in 0.001839 seconds
+Iteration 5 of 10 completed in 0.001859 seconds
+Iteration 6 of 10 completed in 0.001841 seconds
+Iteration 7 of 10 completed in 0.001828 seconds
+Iteration 8 of 10 completed in 0.001882 seconds
+Iteration 9 of 10 completed in 0.001804 seconds
+Iteration 10 of 10 completed in 0.003411 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.002013 seconds
+Total simulation time: 0.020126 seconds
+Particles processed: 1000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 2000, Threads: 16
+Avg time: 0.002809 sec, Total time: 0.028090 sec
+Full output:
+Pthreads particle generation using 16 threads
+2000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 2000 particles is: 0.000472 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 2000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.002674 seconds
+Iteration 2 of 10 completed in 0.002638 seconds
+Iteration 3 of 10 completed in 0.002628 seconds
+Iteration 4 of 10 completed in 0.003210 seconds
+Iteration 5 of 10 completed in 0.003214 seconds
+Iteration 6 of 10 completed in 0.003269 seconds
+Iteration 7 of 10 completed in 0.002668 seconds
+Iteration 8 of 10 completed in 0.002589 seconds
+Iteration 9 of 10 completed in 0.002602 seconds
+Iteration 10 of 10 completed in 0.002577 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.002809 seconds
+Total simulation time: 0.028090 seconds
+Particles processed: 2000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 3000, Threads: 16
+Avg time: 0.004729 sec, Total time: 0.047293 sec
+Full output:
+Pthreads particle generation using 16 threads
+3000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 3000 particles is: 0.000475 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 3000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.003829 seconds
+Iteration 2 of 10 completed in 0.003963 seconds
+Iteration 3 of 10 completed in 0.005535 seconds
+Iteration 4 of 10 completed in 0.003892 seconds
+Iteration 5 of 10 completed in 0.005562 seconds
+Iteration 6 of 10 completed in 0.005558 seconds
+Iteration 7 of 10 completed in 0.005584 seconds
+Iteration 8 of 10 completed in 0.003848 seconds
+Iteration 9 of 10 completed in 0.005580 seconds
+Iteration 10 of 10 completed in 0.003916 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.004729 seconds
+Total simulation time: 0.047293 seconds
+Particles processed: 3000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 4000, Threads: 16
+Avg time: 0.007507 sec, Total time: 0.075067 sec
+Full output:
+Pthreads particle generation using 16 threads
+4000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 4000 particles is: 0.000427 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 4000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.008820 seconds
+Iteration 2 of 10 completed in 0.005557 seconds
+Iteration 3 of 10 completed in 0.008798 seconds
+Iteration 4 of 10 completed in 0.008760 seconds
+Iteration 5 of 10 completed in 0.005633 seconds
+Iteration 6 of 10 completed in 0.008765 seconds
+Iteration 7 of 10 completed in 0.008758 seconds
+Iteration 8 of 10 completed in 0.005617 seconds
+Iteration 9 of 10 completed in 0.008758 seconds
+Iteration 10 of 10 completed in 0.005583 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.007507 seconds
+Total simulation time: 0.075067 seconds
+Particles processed: 4000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 5000, Threads: 16
+Avg time: 0.010435 sec, Total time: 0.104347 sec
+Full output:
+Pthreads particle generation using 16 threads
+5000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 5000 particles is: 0.000454 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 5000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.007949 seconds
+Iteration 2 of 10 completed in 0.007926 seconds
+Iteration 3 of 10 completed in 0.013079 seconds
+Iteration 4 of 10 completed in 0.012944 seconds
+Iteration 5 of 10 completed in 0.012919 seconds
+Iteration 6 of 10 completed in 0.012999 seconds
+Iteration 7 of 10 completed in 0.007911 seconds
+Iteration 8 of 10 completed in 0.012873 seconds
+Iteration 9 of 10 completed in 0.007861 seconds
+Iteration 10 of 10 completed in 0.007852 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.010435 seconds
+Total simulation time: 0.104347 seconds
+Particles processed: 5000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 6000, Threads: 16
+Avg time: 0.012678 sec, Total time: 0.126785 sec
+Full output:
+Pthreads particle generation using 16 threads
+6000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 6000 particles is: 0.000475 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 6000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.018078 seconds
+Iteration 2 of 10 completed in 0.010404 seconds
+Iteration 3 of 10 completed in 0.010290 seconds
+Iteration 4 of 10 completed in 0.010398 seconds
+Iteration 5 of 10 completed in 0.010421 seconds
+Iteration 6 of 10 completed in 0.017936 seconds
+Iteration 7 of 10 completed in 0.010416 seconds
+Iteration 8 of 10 completed in 0.017974 seconds
+Iteration 9 of 10 completed in 0.010374 seconds
+Iteration 10 of 10 completed in 0.010475 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.012678 seconds
+Total simulation time: 0.126785 seconds
+Particles processed: 6000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 7000, Threads: 16
+Avg time: 0.015715 sec, Total time: 0.157151 sec
+Full output:
+Pthreads particle generation using 16 threads
+7000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 7000 particles is: 0.000458 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 7000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.013777 seconds
+Iteration 2 of 10 completed in 0.013689 seconds
+Iteration 3 of 10 completed in 0.023987 seconds
+Iteration 4 of 10 completed in 0.013578 seconds
+Iteration 5 of 10 completed in 0.013719 seconds
+Iteration 6 of 10 completed in 0.013587 seconds
+Iteration 7 of 10 completed in 0.013606 seconds
+Iteration 8 of 10 completed in 0.013628 seconds
+Iteration 9 of 10 completed in 0.023954 seconds
+Iteration 10 of 10 completed in 0.013607 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.015715 seconds
+Total simulation time: 0.157151 seconds
+Particles processed: 7000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 8000, Threads: 16
+Avg time: 0.023435 sec, Total time: 0.234351 sec
+Full output:
+Pthreads particle generation using 16 threads
+8000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 8000 particles is: 0.000450 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 8000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.030849 seconds
+Iteration 2 of 10 completed in 0.030838 seconds
+Iteration 3 of 10 completed in 0.017074 seconds
+Iteration 4 of 10 completed in 0.030896 seconds
+Iteration 5 of 10 completed in 0.025073 seconds
+Iteration 6 of 10 completed in 0.017226 seconds
+Iteration 7 of 10 completed in 0.017190 seconds
+Iteration 8 of 10 completed in 0.017192 seconds
+Iteration 9 of 10 completed in 0.030895 seconds
+Iteration 10 of 10 completed in 0.017100 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.023435 seconds
+Total simulation time: 0.234351 seconds
+Particles processed: 8000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 9000, Threads: 16
+Avg time: 0.024934 sec, Total time: 0.249343 sec
+Full output:
+Pthreads particle generation using 16 threads
+9000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 9000 particles is: 0.000474 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 9000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.038742 seconds
+Iteration 2 of 10 completed in 0.038706 seconds
+Iteration 3 of 10 completed in 0.021343 seconds
+Iteration 4 of 10 completed in 0.021460 seconds
+Iteration 5 of 10 completed in 0.021655 seconds
+Iteration 6 of 10 completed in 0.021599 seconds
+Iteration 7 of 10 completed in 0.021554 seconds
+Iteration 8 of 10 completed in 0.021541 seconds
+Iteration 9 of 10 completed in 0.021295 seconds
+Iteration 10 of 10 completed in 0.021426 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.024934 seconds
+Total simulation time: 0.249343 seconds
+Particles processed: 9000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 10000, Threads: 16
+Avg time: 0.032302 sec, Total time: 0.323020 sec
+Full output:
+Pthreads particle generation using 16 threads
+10000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 10000 particles is: 0.000465 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 10000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.025810 seconds
+Iteration 2 of 10 completed in 0.025898 seconds
+Iteration 3 of 10 completed in 0.025904 seconds
+Iteration 4 of 10 completed in 0.025655 seconds
+Iteration 5 of 10 completed in 0.025756 seconds
+Iteration 6 of 10 completed in 0.025751 seconds
+Iteration 7 of 10 completed in 0.047389 seconds
+Iteration 8 of 10 completed in 0.047484 seconds
+Iteration 9 of 10 completed in 0.025856 seconds
+Iteration 10 of 10 completed in 0.047497 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.032302 seconds
+Total simulation time: 0.323020 seconds
+Particles processed: 10000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 20000, Threads: 16
+Avg time: 0.127652 sec, Total time: 1.276516 sec
+Full output:
+Pthreads particle generation using 16 threads
+20000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 20000 particles is: 0.000514 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 20000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.098025 seconds
+Iteration 2 of 10 completed in 0.097870 seconds
+Iteration 3 of 10 completed in 0.158302 seconds
+Iteration 4 of 10 completed in 0.097841 seconds
+Iteration 5 of 10 completed in 0.158309 seconds
+Iteration 6 of 10 completed in 0.097833 seconds
+Iteration 7 of 10 completed in 0.158063 seconds
+Iteration 8 of 10 completed in 0.154328 seconds
+Iteration 9 of 10 completed in 0.097759 seconds
+Iteration 10 of 10 completed in 0.158157 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.127652 seconds
+Total simulation time: 1.276516 seconds
+Particles processed: 20000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 30000, Threads: 16
+Avg time: 0.257372 sec, Total time: 2.573719 sec
+Full output:
+Pthreads particle generation using 16 threads
+30000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 30000 particles is: 0.000517 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 30000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.217807 seconds
+Iteration 2 of 10 completed in 0.307530 seconds
+Iteration 3 of 10 completed in 0.217922 seconds
+Iteration 4 of 10 completed in 0.217846 seconds
+Iteration 5 of 10 completed in 0.355497 seconds
+Iteration 6 of 10 completed in 0.217759 seconds
+Iteration 7 of 10 completed in 0.279176 seconds
+Iteration 8 of 10 completed in 0.217935 seconds
+Iteration 9 of 10 completed in 0.277831 seconds
+Iteration 10 of 10 completed in 0.264379 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.257372 seconds
+Total simulation time: 2.573719 seconds
+Particles processed: 30000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 40000, Threads: 16
+Avg time: 0.418688 sec, Total time: 4.186884 sec
+Full output:
+Pthreads particle generation using 16 threads
+40000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 40000 particles is: 0.000564 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 40000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.450355 seconds
+Iteration 2 of 10 completed in 0.386930 seconds
+Iteration 3 of 10 completed in 0.449041 seconds
+Iteration 4 of 10 completed in 0.446330 seconds
+Iteration 5 of 10 completed in 0.387780 seconds
+Iteration 6 of 10 completed in 0.386720 seconds
+Iteration 7 of 10 completed in 0.386960 seconds
+Iteration 8 of 10 completed in 0.445770 seconds
+Iteration 9 of 10 completed in 0.460284 seconds
+Iteration 10 of 10 completed in 0.386676 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.418688 seconds
+Total simulation time: 4.186884 seconds
+Particles processed: 40000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 50000, Threads: 16
+Avg time: 0.627653 sec, Total time: 6.276530 sec
+Full output:
+Pthreads particle generation using 16 threads
+50000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 50000 particles is: 0.000597 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 50000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.647361 seconds
+Iteration 2 of 10 completed in 0.600831 seconds
+Iteration 3 of 10 completed in 0.658960 seconds
+Iteration 4 of 10 completed in 0.649461 seconds
+Iteration 5 of 10 completed in 0.600307 seconds
+Iteration 6 of 10 completed in 0.658758 seconds
+Iteration 7 of 10 completed in 0.601384 seconds
+Iteration 8 of 10 completed in 0.656704 seconds
+Iteration 9 of 10 completed in 0.601020 seconds
+Iteration 10 of 10 completed in 0.601706 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.627653 seconds
+Total simulation time: 6.276530 seconds
+Particles processed: 50000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 60000, Threads: 16
+Avg time: 0.897591 sec, Total time: 8.975913 sec
+Full output:
+Pthreads particle generation using 16 threads
+60000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 60000 particles is: 0.000621 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 60000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 0.921623 seconds
+Iteration 2 of 10 completed in 0.863522 seconds
+Iteration 3 of 10 completed in 0.863147 seconds
+Iteration 4 of 10 completed in 0.922321 seconds
+Iteration 5 of 10 completed in 0.864497 seconds
+Iteration 6 of 10 completed in 0.864627 seconds
+Iteration 7 of 10 completed in 0.922848 seconds
+Iteration 8 of 10 completed in 0.982307 seconds
+Iteration 9 of 10 completed in 0.864033 seconds
+Iteration 10 of 10 completed in 0.906952 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.897591 seconds
+Total simulation time: 8.975913 seconds
+Particles processed: 60000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 70000, Threads: 16
+Avg time: 1.190599 sec, Total time: 11.905989 sec
+Full output:
+Pthreads particle generation using 16 threads
+70000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 70000 particles is: 0.000660 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 70000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 1.176836 seconds
+Iteration 2 of 10 completed in 1.175494 seconds
+Iteration 3 of 10 completed in 1.175247 seconds
+Iteration 4 of 10 completed in 1.174428 seconds
+Iteration 5 of 10 completed in 1.175010 seconds
+Iteration 6 of 10 completed in 1.175630 seconds
+Iteration 7 of 10 completed in 1.175002 seconds
+Iteration 8 of 10 completed in 1.235560 seconds
+Iteration 9 of 10 completed in 1.216233 seconds
+Iteration 10 of 10 completed in 1.226513 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.190599 seconds
+Total simulation time: 11.905989 seconds
+Particles processed: 70000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 80000, Threads: 16
+Avg time: 1.560228 sec, Total time: 15.602283 sec
+Full output:
+Pthreads particle generation using 16 threads
+80000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 80000 particles is: 0.000663 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 80000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 1.600226 seconds
+Iteration 2 of 10 completed in 1.582799 seconds
+Iteration 3 of 10 completed in 1.577342 seconds
+Iteration 4 of 10 completed in 1.534183 seconds
+Iteration 5 of 10 completed in 1.534902 seconds
+Iteration 6 of 10 completed in 1.534374 seconds
+Iteration 7 of 10 completed in 1.587812 seconds
+Iteration 8 of 10 completed in 1.580821 seconds
+Iteration 9 of 10 completed in 1.535169 seconds
+Iteration 10 of 10 completed in 1.534623 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.560228 seconds
+Total simulation time: 15.602283 seconds
+Particles processed: 80000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 90000, Threads: 16
+Avg time: 1.966767 sec, Total time: 19.667665 sec
+Full output:
+Pthreads particle generation using 16 threads
+90000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 90000 particles is: 0.000737 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 90000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 1.941201 seconds
+Iteration 2 of 10 completed in 2.000126 seconds
+Iteration 3 of 10 completed in 2.004656 seconds
+Iteration 4 of 10 completed in 1.941490 seconds
+Iteration 5 of 10 completed in 1.976204 seconds
+Iteration 6 of 10 completed in 1.942378 seconds
+Iteration 7 of 10 completed in 1.941467 seconds
+Iteration 8 of 10 completed in 1.988860 seconds
+Iteration 9 of 10 completed in 1.988712 seconds
+Iteration 10 of 10 completed in 1.942537 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.966767 seconds
+Total simulation time: 19.667665 seconds
+Particles processed: 90000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 100000, Threads: 16
+Avg time: 2.415720 sec, Total time: 24.157205 sec
+Full output:
+Pthreads particle generation using 16 threads
+100000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 100000 particles is: 0.000757 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 16
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 100000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+===========================================================
+Iteration 1 of 10 completed in 2.395399 seconds
+Iteration 2 of 10 completed in 2.448137 seconds
+Iteration 3 of 10 completed in 2.398430 seconds
+Iteration 4 of 10 completed in 2.446646 seconds
+Iteration 5 of 10 completed in 2.408873 seconds
+Iteration 6 of 10 completed in 2.424064 seconds
+Iteration 7 of 10 completed in 2.449332 seconds
+Iteration 8 of 10 completed in 2.395584 seconds
+Iteration 9 of 10 completed in 2.395030 seconds
+Iteration 10 of 10 completed in 2.395675 seconds
+
+=== Performance Summary ===
+Avg iteration time: 2.415720 seconds
+Total simulation time: 24.157205 seconds
+Particles processed: 100000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 16
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 1000, Threads: 32
+Avg time: 0.003235 sec, Total time: 0.032349 sec
+Full output:
+Pthreads particle generation using 32 threads
+1000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 1000 particles is: 0.000858 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 1000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.003276 seconds
+Iteration 2 of 10 completed in 0.003263 seconds
+Iteration 3 of 10 completed in 0.003178 seconds
+Iteration 4 of 10 completed in 0.003274 seconds
+Iteration 5 of 10 completed in 0.003203 seconds
+Iteration 6 of 10 completed in 0.003251 seconds
+Iteration 7 of 10 completed in 0.003193 seconds
+Iteration 8 of 10 completed in 0.003263 seconds
+Iteration 9 of 10 completed in 0.003203 seconds
+Iteration 10 of 10 completed in 0.003228 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.003235 seconds
+Total simulation time: 0.032349 seconds
+Particles processed: 1000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 2000, Threads: 32
+Avg time: 0.004205 sec, Total time: 0.042047 sec
+Full output:
+Pthreads particle generation using 32 threads
+2000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 2000 particles is: 0.000851 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 2000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.004039 seconds
+Iteration 2 of 10 completed in 0.004074 seconds
+Iteration 3 of 10 completed in 0.004155 seconds
+Iteration 4 of 10 completed in 0.005872 seconds
+Iteration 5 of 10 completed in 0.003966 seconds
+Iteration 6 of 10 completed in 0.003959 seconds
+Iteration 7 of 10 completed in 0.003921 seconds
+Iteration 8 of 10 completed in 0.003968 seconds
+Iteration 9 of 10 completed in 0.004146 seconds
+Iteration 10 of 10 completed in 0.003926 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.004205 seconds
+Total simulation time: 0.042047 seconds
+Particles processed: 2000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 3000, Threads: 32
+Avg time: 0.005451 sec, Total time: 0.054509 sec
+Full output:
+Pthreads particle generation using 32 threads
+3000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 3000 particles is: 0.000835 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 3000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.005279 seconds
+Iteration 2 of 10 completed in 0.005303 seconds
+Iteration 3 of 10 completed in 0.005318 seconds
+Iteration 4 of 10 completed in 0.005320 seconds
+Iteration 5 of 10 completed in 0.006113 seconds
+Iteration 6 of 10 completed in 0.005314 seconds
+Iteration 7 of 10 completed in 0.005335 seconds
+Iteration 8 of 10 completed in 0.006109 seconds
+Iteration 9 of 10 completed in 0.005209 seconds
+Iteration 10 of 10 completed in 0.005187 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.005451 seconds
+Total simulation time: 0.054509 seconds
+Particles processed: 3000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 4000, Threads: 32
+Avg time: 0.006819 sec, Total time: 0.068186 sec
+Full output:
+Pthreads particle generation using 32 threads
+4000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 4000 particles is: 0.000955 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 4000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.006825 seconds
+Iteration 2 of 10 completed in 0.006998 seconds
+Iteration 3 of 10 completed in 0.006759 seconds
+Iteration 4 of 10 completed in 0.006805 seconds
+Iteration 5 of 10 completed in 0.006794 seconds
+Iteration 6 of 10 completed in 0.006811 seconds
+Iteration 7 of 10 completed in 0.006838 seconds
+Iteration 8 of 10 completed in 0.006770 seconds
+Iteration 9 of 10 completed in 0.006739 seconds
+Iteration 10 of 10 completed in 0.006828 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.006819 seconds
+Total simulation time: 0.068186 seconds
+Particles processed: 4000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 5000, Threads: 32
+Avg time: 0.008892 sec, Total time: 0.088923 sec
+Full output:
+Pthreads particle generation using 32 threads
+5000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 5000 particles is: 0.000877 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 5000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.008980 seconds
+Iteration 2 of 10 completed in 0.009094 seconds
+Iteration 3 of 10 completed in 0.008739 seconds
+Iteration 4 of 10 completed in 0.008842 seconds
+Iteration 5 of 10 completed in 0.008788 seconds
+Iteration 6 of 10 completed in 0.008873 seconds
+Iteration 7 of 10 completed in 0.008900 seconds
+Iteration 8 of 10 completed in 0.008907 seconds
+Iteration 9 of 10 completed in 0.008830 seconds
+Iteration 10 of 10 completed in 0.008949 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.008892 seconds
+Total simulation time: 0.088923 seconds
+Particles processed: 5000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 6000, Threads: 32
+Avg time: 0.011661 sec, Total time: 0.116611 sec
+Full output:
+Pthreads particle generation using 32 threads
+6000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 6000 particles is: 0.000833 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 6000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.011672 seconds
+Iteration 2 of 10 completed in 0.011447 seconds
+Iteration 3 of 10 completed in 0.011470 seconds
+Iteration 4 of 10 completed in 0.011465 seconds
+Iteration 5 of 10 completed in 0.011471 seconds
+Iteration 6 of 10 completed in 0.013447 seconds
+Iteration 7 of 10 completed in 0.011370 seconds
+Iteration 8 of 10 completed in 0.011426 seconds
+Iteration 9 of 10 completed in 0.011441 seconds
+Iteration 10 of 10 completed in 0.011382 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.011661 seconds
+Total simulation time: 0.116611 seconds
+Particles processed: 6000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 7000, Threads: 32
+Avg time: 0.015664 sec, Total time: 0.156635 sec
+Full output:
+Pthreads particle generation using 32 threads
+7000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 7000 particles is: 0.000869 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 7000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.014906 seconds
+Iteration 2 of 10 completed in 0.014797 seconds
+Iteration 3 of 10 completed in 0.014839 seconds
+Iteration 4 of 10 completed in 0.017612 seconds
+Iteration 5 of 10 completed in 0.014785 seconds
+Iteration 6 of 10 completed in 0.014764 seconds
+Iteration 7 of 10 completed in 0.014872 seconds
+Iteration 8 of 10 completed in 0.017950 seconds
+Iteration 9 of 10 completed in 0.014875 seconds
+Iteration 10 of 10 completed in 0.017215 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.015664 seconds
+Total simulation time: 0.156635 seconds
+Particles processed: 7000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 8000, Threads: 32
+Avg time: 0.018719 sec, Total time: 0.187193 sec
+Full output:
+Pthreads particle generation using 32 threads
+8000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 8000 particles is: 0.000871 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 8000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.017930 seconds
+Iteration 2 of 10 completed in 0.017966 seconds
+Iteration 3 of 10 completed in 0.017596 seconds
+Iteration 4 of 10 completed in 0.017982 seconds
+Iteration 5 of 10 completed in 0.017810 seconds
+Iteration 6 of 10 completed in 0.019509 seconds
+Iteration 7 of 10 completed in 0.017738 seconds
+Iteration 8 of 10 completed in 0.017804 seconds
+Iteration 9 of 10 completed in 0.024985 seconds
+Iteration 10 of 10 completed in 0.017852 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.018719 seconds
+Total simulation time: 0.187193 seconds
+Particles processed: 8000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 9000, Threads: 32
+Avg time: 0.022712 sec, Total time: 0.227120 sec
+Full output:
+Pthreads particle generation using 32 threads
+9000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 9000 particles is: 0.000865 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 9000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.021954 seconds
+Iteration 2 of 10 completed in 0.021844 seconds
+Iteration 3 of 10 completed in 0.021856 seconds
+Iteration 4 of 10 completed in 0.021775 seconds
+Iteration 5 of 10 completed in 0.021846 seconds
+Iteration 6 of 10 completed in 0.021855 seconds
+Iteration 7 of 10 completed in 0.021643 seconds
+Iteration 8 of 10 completed in 0.021834 seconds
+Iteration 9 of 10 completed in 0.021771 seconds
+Iteration 10 of 10 completed in 0.030721 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.022712 seconds
+Total simulation time: 0.227120 seconds
+Particles processed: 9000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 10000, Threads: 32
+Avg time: 0.027107 sec, Total time: 0.271070 sec
+Full output:
+Pthreads particle generation using 32 threads
+10000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 10000 particles is: 0.000883 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 10000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.026535 seconds
+Iteration 2 of 10 completed in 0.032182 seconds
+Iteration 3 of 10 completed in 0.026568 seconds
+Iteration 4 of 10 completed in 0.026429 seconds
+Iteration 5 of 10 completed in 0.026591 seconds
+Iteration 6 of 10 completed in 0.026633 seconds
+Iteration 7 of 10 completed in 0.026654 seconds
+Iteration 8 of 10 completed in 0.026531 seconds
+Iteration 9 of 10 completed in 0.026387 seconds
+Iteration 10 of 10 completed in 0.026538 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.027107 seconds
+Total simulation time: 0.271070 seconds
+Particles processed: 10000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 20000, Threads: 32
+Avg time: 0.097960 sec, Total time: 0.979602 sec
+Full output:
+Pthreads particle generation using 32 threads
+20000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 20000 particles is: 0.000870 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 20000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.095643 seconds
+Iteration 2 of 10 completed in 0.095353 seconds
+Iteration 3 of 10 completed in 0.095571 seconds
+Iteration 4 of 10 completed in 0.096072 seconds
+Iteration 5 of 10 completed in 0.095716 seconds
+Iteration 6 of 10 completed in 0.095674 seconds
+Iteration 7 of 10 completed in 0.095423 seconds
+Iteration 8 of 10 completed in 0.119100 seconds
+Iteration 9 of 10 completed in 0.095477 seconds
+Iteration 10 of 10 completed in 0.095536 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.097960 seconds
+Total simulation time: 0.979602 seconds
+Particles processed: 20000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 30000, Threads: 32
+Avg time: 0.211978 sec, Total time: 2.119778 sec
+Full output:
+Pthreads particle generation using 32 threads
+30000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 30000 particles is: 0.000862 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 30000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.211953 seconds
+Iteration 2 of 10 completed in 0.211783 seconds
+Iteration 3 of 10 completed in 0.212409 seconds
+Iteration 4 of 10 completed in 0.212023 seconds
+Iteration 5 of 10 completed in 0.211810 seconds
+Iteration 6 of 10 completed in 0.211996 seconds
+Iteration 7 of 10 completed in 0.211772 seconds
+Iteration 8 of 10 completed in 0.211861 seconds
+Iteration 9 of 10 completed in 0.212019 seconds
+Iteration 10 of 10 completed in 0.212118 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.211978 seconds
+Total simulation time: 2.119778 seconds
+Particles processed: 30000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 40000, Threads: 32
+Avg time: 0.376571 sec, Total time: 3.765714 sec
+Full output:
+Pthreads particle generation using 32 threads
+40000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 40000 particles is: 0.000841 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 40000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.371767 seconds
+Iteration 2 of 10 completed in 0.371932 seconds
+Iteration 3 of 10 completed in 0.371717 seconds
+Iteration 4 of 10 completed in 0.395504 seconds
+Iteration 5 of 10 completed in 0.372087 seconds
+Iteration 6 of 10 completed in 0.371976 seconds
+Iteration 7 of 10 completed in 0.371857 seconds
+Iteration 8 of 10 completed in 0.395211 seconds
+Iteration 9 of 10 completed in 0.371834 seconds
+Iteration 10 of 10 completed in 0.371792 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.376571 seconds
+Total simulation time: 3.765714 seconds
+Particles processed: 40000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 50000, Threads: 32
+Avg time: 0.581617 sec, Total time: 5.816165 sec
+Full output:
+Pthreads particle generation using 32 threads
+50000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 50000 particles is: 0.000903 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 50000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.581743 seconds
+Iteration 2 of 10 completed in 0.581309 seconds
+Iteration 3 of 10 completed in 0.581207 seconds
+Iteration 4 of 10 completed in 0.581896 seconds
+Iteration 5 of 10 completed in 0.581637 seconds
+Iteration 6 of 10 completed in 0.582025 seconds
+Iteration 7 of 10 completed in 0.581422 seconds
+Iteration 8 of 10 completed in 0.581335 seconds
+Iteration 9 of 10 completed in 0.582032 seconds
+Iteration 10 of 10 completed in 0.581520 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.581617 seconds
+Total simulation time: 5.816165 seconds
+Particles processed: 50000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 60000, Threads: 32
+Avg time: 0.833052 sec, Total time: 8.330516 sec
+Full output:
+Pthreads particle generation using 32 threads
+60000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 60000 particles is: 0.000909 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 60000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 0.832794 seconds
+Iteration 2 of 10 completed in 0.832810 seconds
+Iteration 3 of 10 completed in 0.832821 seconds
+Iteration 4 of 10 completed in 0.832756 seconds
+Iteration 5 of 10 completed in 0.832780 seconds
+Iteration 6 of 10 completed in 0.832746 seconds
+Iteration 7 of 10 completed in 0.832701 seconds
+Iteration 8 of 10 completed in 0.835457 seconds
+Iteration 9 of 10 completed in 0.832755 seconds
+Iteration 10 of 10 completed in 0.832840 seconds
+
+=== Performance Summary ===
+Avg iteration time: 0.833052 seconds
+Total simulation time: 8.330516 seconds
+Particles processed: 60000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 70000, Threads: 32
+Avg time: 1.135534 sec, Total time: 11.355342 sec
+Full output:
+Pthreads particle generation using 32 threads
+70000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 70000 particles is: 0.000944 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 70000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 1.136607 seconds
+Iteration 2 of 10 completed in 1.135505 seconds
+Iteration 3 of 10 completed in 1.135006 seconds
+Iteration 4 of 10 completed in 1.135625 seconds
+Iteration 5 of 10 completed in 1.136410 seconds
+Iteration 6 of 10 completed in 1.135335 seconds
+Iteration 7 of 10 completed in 1.135988 seconds
+Iteration 8 of 10 completed in 1.135357 seconds
+Iteration 9 of 10 completed in 1.134608 seconds
+Iteration 10 of 10 completed in 1.134866 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.135534 seconds
+Total simulation time: 11.355342 seconds
+Particles processed: 70000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 80000, Threads: 32
+Avg time: 1.481251 sec, Total time: 14.812514 sec
+Full output:
+Pthreads particle generation using 32 threads
+80000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 80000 particles is: 0.000987 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 80000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 1.479774 seconds
+Iteration 2 of 10 completed in 1.479703 seconds
+Iteration 3 of 10 completed in 1.479772 seconds
+Iteration 4 of 10 completed in 1.479878 seconds
+Iteration 5 of 10 completed in 1.479775 seconds
+Iteration 6 of 10 completed in 1.494807 seconds
+Iteration 7 of 10 completed in 1.479614 seconds
+Iteration 8 of 10 completed in 1.479706 seconds
+Iteration 9 of 10 completed in 1.479651 seconds
+Iteration 10 of 10 completed in 1.479800 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.481251 seconds
+Total simulation time: 14.812514 seconds
+Particles processed: 80000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 90000, Threads: 32
+Avg time: 1.874958 sec, Total time: 18.749579 sec
+Full output:
+Pthreads particle generation using 32 threads
+90000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 90000 particles is: 0.000982 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 90000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 1.875068 seconds
+Iteration 2 of 10 completed in 1.874302 seconds
+Iteration 3 of 10 completed in 1.873680 seconds
+Iteration 4 of 10 completed in 1.875544 seconds
+Iteration 5 of 10 completed in 1.874255 seconds
+Iteration 6 of 10 completed in 1.875161 seconds
+Iteration 7 of 10 completed in 1.877247 seconds
+Iteration 8 of 10 completed in 1.875337 seconds
+Iteration 9 of 10 completed in 1.874376 seconds
+Iteration 10 of 10 completed in 1.874574 seconds
+
+=== Performance Summary ===
+Avg iteration time: 1.874958 seconds
+Total simulation time: 18.749579 seconds
+Particles processed: 90000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
+Particles: 100000, Threads: 32
+Avg time: 2.310881 sec, Total time: 23.108812 sec
+Full output:
+Pthreads particle generation using 32 threads
+100000 particles have been created with random values and written to file: particles.txt in binary format.
+Elapsed time for generating 100000 particles is: 0.001004 seconds.
+Particle structure includes accelerations for Verlet integration.
+Threads used: 32
+
+=== N-Body Simulation Results (Pthreads Velocity Verlet) ===
+Number of particles: 100000
+Time step: 0.010000
+Number of iterations: 10
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+===========================================================
+Iteration 1 of 10 completed in 2.309792 seconds
+Iteration 2 of 10 completed in 2.309935 seconds
+Iteration 3 of 10 completed in 2.309691 seconds
+Iteration 4 of 10 completed in 2.309511 seconds
+Iteration 5 of 10 completed in 2.309626 seconds
+Iteration 6 of 10 completed in 2.309572 seconds
+Iteration 7 of 10 completed in 2.309470 seconds
+Iteration 8 of 10 completed in 2.309735 seconds
+Iteration 9 of 10 completed in 2.321898 seconds
+Iteration 10 of 10 completed in 2.309547 seconds
+
+=== Performance Summary ===
+Avg iteration time: 2.310881 seconds
+Total simulation time: 23.108812 seconds
+Particles processed: 100000
+Integration method: Velocity Verlet (Pthreads)
+Threads used: 32
+==========================
+
+Final particle states written to parallel_output.txt
+---
