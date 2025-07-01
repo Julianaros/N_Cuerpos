@@ -6,7 +6,7 @@ Este proyecto se busca simular el problema de los N-cuerpos, un problema fundame
 
 Partimos de la **ecuación de Newton**, donde cada partícula experimenta la fuerza
 
-F_i = G * sum_{j=1, j ≠ i}^{N} [ (m_i * m_j / |r_ij|^3 ) * r_ij ]
+![image](https://github.com/user-attachments/assets/39066bb2-dd71-47d6-999e-737d482604ab)
 
 y usando la **segunda Ley de Newton** es posible conocer la aceleración de las partículas
 
