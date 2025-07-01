@@ -9,8 +9,7 @@
 
 /* Implementation of the simulation of the n-body problem
    Sequential version using Velocity Verlet integration method
-   Based on the original Euler implementation but with improved
-   numerical stability and accuracy */
+   Modified to output data for visualization */
 
 typedef struct {
     float mass;
@@ -24,6 +23,8 @@ typedef struct {
 int convertStringToInt(char *str);
 void computeAccelerations(Particle *p, int n);
 void verletIntegration(Particle *p, float dt, int n);
+void saveParticleData(Particle *p, int n, int iteration, const char* filename);
+void saveVelocityField(Particle *p, int n, int iteration, const char* filename);
 
 int main(int argc, char* argv[]) {
 
@@ -31,14 +32,15 @@ int main(int argc, char* argv[]) {
     if (argc > 1) nBodies = convertStringToInt(argv[1]);
 
     const float dt = 0.01f; // Time step
-    const int nIters = 10;  // Simulation iterations
+    const int nIters = 50;  // Increased iterations for better visualization
+    const int saveInterval = 5; // Save data every 5 iterations
 
     clock_t startIter, endIter;
     clock_t startTotal = clock(), endTotal;
     double totalTime = 0.0;
 
     // First generate particles
-    system("gcc -o particle_production particle_production.c -lm");
+    system("gcc -o particle_production particle_production_verlet.c -lm");
     char command[256];
     sprintf(command, "./particle_production %d", nBodies);
     system(command);
@@ -81,8 +83,13 @@ int main(int argc, char* argv[]) {
     printf("Number of particles: %d\n", nBodies);
     printf("Time step: %f\n", dt);
     printf("Number of iterations: %d\n", nIters);
+    printf("Data save interval: every %d iterations\n", saveInterval);
     printf("Integration method: Velocity Verlet\n");
     printf("===================================================\n");
+
+    // Save initial state
+    saveParticleData(particles, nBodies, 0, "particle_positions.csv");
+    saveVelocityField(particles, nBodies, 0, "velocity_field.csv");
 
     for (int iter = 1; iter <= nIters; iter++) {
         startIter = clock();
@@ -91,6 +98,12 @@ int main(int argc, char* argv[]) {
 
         endIter = clock() - startIter;
         printf("Iteration %d of %d completed in %f seconds\n", iter, nIters, (double)endIter / CLOCKS_PER_SEC);
+        
+        // Save data at specified intervals
+        if (iter % saveInterval == 0) {
+            saveParticleData(particles, nBodies, iter, "particle_positions.csv");
+            saveVelocityField(particles, nBodies, iter, "velocity_field.csv");
+        }
     }
 
     endTotal = clock();
@@ -102,9 +115,10 @@ int main(int argc, char* argv[]) {
     printf("Total simulation time: %f seconds\n", totalTime);
     printf("Particles processed: %d\n", nBodies);
     printf("Integration method: Velocity Verlet\n");
+    printf("Data files created: particle_positions.csv, velocity_field.csv\n");
     printf("==========================\n\n");
 
-    /* Write the output to a file to evaluate correctness by comparing with parallel output */
+    /* Write the final output to a file */
     FILE *fileWrite = fopen("sequential_verlet_output.txt", "wb");
     if (fileWrite != NULL) {
         size_t written = fwrite(particles, sizeof(Particle), nBodies, fileWrite);
@@ -120,6 +134,60 @@ int main(int argc, char* argv[]) {
 
     free(particles);
     return 0;
+}
+
+/* Save particle position data for heat map visualization */
+void saveParticleData(Particle *p, int n, int iteration, const char* filename) {
+    FILE *file;
+    
+    if (iteration == 0) {
+        // Create new file with header
+        file = fopen(filename, "w");
+        fprintf(file, "iteration,particle_id,x,y,z,mass\n");
+    } else {
+        // Append to existing file
+        file = fopen(filename, "a");
+    }
+    
+    if (file == NULL) {
+        printf("Warning: Could not open %s for writing\n", filename);
+        return;
+    }
+    
+    for (int i = 0; i < n; i++) {
+        fprintf(file, "%d,%d,%.6f,%.6f,%.6f,%.6f\n", 
+                iteration, i, p[i].x, p[i].y, p[i].z, p[i].mass);
+    }
+    
+    fclose(file);
+}
+
+/* Save velocity field data for vector field visualization */
+void saveVelocityField(Particle *p, int n, int iteration, const char* filename) {
+    FILE *file;
+    
+    if (iteration == 0) {
+        // Create new file with header
+        file = fopen(filename, "w");
+        fprintf(file, "iteration,particle_id,x,y,z,vx,vy,vz,velocity_magnitude\n");
+    } else {
+        // Append to existing file
+        file = fopen(filename, "a");
+    }
+    
+    if (file == NULL) {
+        printf("Warning: Could not open %s for writing\n", filename);
+        return;
+    }
+    
+    for (int i = 0; i < n; i++) {
+        float v_mag = sqrtf(p[i].vx * p[i].vx + p[i].vy * p[i].vy + p[i].vz * p[i].vz);
+        fprintf(file, "%d,%d,%.6f,%.6f,%.6f,%.6f,%.6f,%.6f,%.6f\n", 
+                iteration, i, p[i].x, p[i].y, p[i].z, 
+                p[i].vx, p[i].vy, p[i].vz, v_mag);
+    }
+    
+    fclose(file);
 }
 
 /* Conversion from string to integer */

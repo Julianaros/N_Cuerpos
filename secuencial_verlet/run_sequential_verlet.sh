@@ -1,22 +1,15 @@
 #!/bin/bash
 
-OUTPUT_FILE="sequential_verlet_results.txt"
-PROGRAM_NAME="sequential_verlet"
+echo "=== N-Body Simulation with Visualization Pipeline ==="
+echo "Date: $(date)"
+echo "======================================================"
 
-echo "=== N-Body Sequential Simulation Benchmark (Velocity Verlet) ===" > "$OUTPUT_FILE"
-echo "Date: $(date)" >> "$OUTPUT_FILE"
-echo "Machine: $(uname -a)" >> "$OUTPUT_FILE"
-echo "Integration Method: Velocity Verlet" >> "$OUTPUT_FILE"
-echo "=================================================================" >> "$OUTPUT_FILE"
-echo "" >> "$OUTPUT_FILE"
-
-# Clean up any existing executables
-if [ -e "$PROGRAM_NAME" ]; then
-    rm "$PROGRAM_NAME"
-fi
-if [ -e "particle_production" ]; then
-    rm "particle_production"
-fi
+# Clean up any existing files
+echo "Cleaning up previous files..."
+rm -f sequential_verlet particle_production
+rm -f particle_positions.csv velocity_field.csv
+rm -f particles.txt sequential_verlet_output.txt
+rm -f *.png *.gif
 
 # Compile the programs
 echo "Compiling programs..."
@@ -35,71 +28,65 @@ fi
 echo "Compilation successful."
 echo ""
 
-# Function to run simulation and extract timing data
+# Function to run simulation with specified parameters
 run_simulation() {
     local nParticles=$1
-    echo "Running Velocity Verlet simulation with $nParticles particles..."
+    echo "Running N-Body simulation with $nParticles particles..."
+    echo "This will generate CSV files for visualization..."
     
-    # Run the program and capture output
-    output=$(./sequential_verlet "$nParticles" 2>&1)
+    # Run the simulation
+    ./sequential_verlet "$nParticles"
     
-    # Extract timing information
-    avg_time=$(echo "$output" | grep "Avg iteration time:" | awk '{print $4}')
-    total_time=$(echo "$output" | grep "Total simulation time:" | awk '{print $4}')
-    
-    # Write results in a structured format
-    echo "Particles: $nParticles" >> "$OUTPUT_FILE"
-    echo "Average iteration time: $avg_time seconds" >> "$OUTPUT_FILE"
-    echo "Total simulation time: $total_time seconds" >> "$OUTPUT_FILE"
-    echo "Full output:" >> "$OUTPUT_FILE"
-    echo "$output" >> "$OUTPUT_FILE"
-    echo "=========================================" >> "$OUTPUT_FILE"
-    echo "" >> "$OUTPUT_FILE"
-    
-    # Also create a CSV-friendly summary
-    if [ ! -f "timing_summary_verlet.csv" ]; then
-        echo "Particles,AvgIterationTime,TotalTime,Method" > "timing_summary_verlet.csv"
+    if [ $? -eq 0 ]; then
+        echo "Simulation completed successfully!"
+        echo "Generated files:"
+        ls -la *.csv 2>/dev/null || echo "No CSV files found"
+    else
+        echo "Error: Simulation failed"
+        return 1
     fi
-    echo "$nParticles,$avg_time,$total_time,Verlet" >> "timing_summary_verlet.csv"
 }
 
-# Run simulations from 1000 to 10000 particles (increments of 1000)
-echo "Starting Velocity Verlet benchmark runs..."
-for nParticles in $(seq 1000 1000 10000); do
-    run_simulation $nParticles
+# Check if user provided number of particles as argument
+if [ $# -eq 1 ]; then
+    nParticles=$1
+else
+    # Default number of particles for visualization
+    # Using smaller number for better visualization performance
+    nParticles=2000
+fi
+
+echo "Starting simulation with $nParticles particles..."
+run_simulation $nParticles
+
+if [ $? -eq 0 ]; then
+    echo ""
+    echo "=== Running Python Visualization ==="
     
-    # Clean up intermediate files to save space
-    if [ -f "particles.txt" ]; then
-        rm "particles.txt"
+    # Check if Python is available
+    if command -v python3 &> /dev/null; then
+        echo "Running visualization script..."
+        python3 visualize_nbody.py
+    elif command -v python &> /dev/null; then
+        echo "Running visualization script..."
+        python visualize_nbody.py
+    else
+        echo "Warning: Python not found. Please install Python to run visualizations."
+        echo "You can manually run: python3 visualize_nbody.py"
     fi
-    if [ -f "sequential_verlet_output.txt" ]; then
-        rm "sequential_verlet_output.txt"
-    fi
-done
-
-# For larger numbers, use bigger increments to avoid extremely long runs
-echo "Running larger simulations with 10K increments..."
-for nParticles in $(seq 20000 10000 100000); do
-    run_simulation $nParticles
     
-    # Clean up intermediate files to save space
-    if [ -f "particles.txt" ]; then
-        rm "particles.txt"
-    fi
-    if [ -f "sequential_verlet_output.txt" ]; then
-        rm "sequential_verlet_output.txt"
-    fi
-done
-
-echo "=== Velocity Verlet Benchmark Complete ===" >> "$OUTPUT_FILE"
-echo "Results saved to: $OUTPUT_FILE" >> "$OUTPUT_FILE"
-echo "CSV summary saved to: timing_summary_verlet.csv" >> "$OUTPUT_FILE"
-
-echo ""
-echo "Sequential Velocity Verlet benchmark completed successfully!"
-echo "Results saved to: $OUTPUT_FILE"
-echo "CSV timing summary saved to: timing_summary_verlet.csv"
-echo ""
-echo "To view results:"
-echo "  cat $OUTPUT_FILE"
-echo "  cat timing_summary_verlet.csv"
+    echo ""
+    echo "=== Pipeline Complete ==="
+    echo "Generated files:"
+    echo "Data files:"
+    ls -la *.csv 2>/dev/null
+    echo ""
+    echo "Visualization files:"
+    ls -la *.png *.gif 2>/dev/null
+    echo ""
+    echo "To re-run only the visualization:"
+    echo "  python3 visualize_nbody.py"
+    echo ""
+    echo "To run with different number of particles:"
+    echo "  ./run_visualization.sh <number_of_particles>"
+fi
