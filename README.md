@@ -10,9 +10,19 @@ Partimos de la **ecuación de Newton**, donde cada partícula experimenta la fue
 
 y usando la **segunda Ley de Newton** es posible conocer la aceleración de las partículas
 
-\( \vec{a}_i = \frac{\vec{F}_i}{m_i} = \sum_{\substack{j=1 \\ j \ne i}}^{N} G \frac{m_j}{|\vec{r}_{ij}|^3} \vec{r}_{ij} \)
+![image](https://github.com/user-attachments/assets/405375c4-d0eb-4aaf-a289-cb59da2112f4)
 
 donde
-- \( \vec{r}_{ij} = \vec{r}_j - \vec{r}_i \) es el vector de distancia  
-- \( G \) es la constante gravitacional (normalizada a 1)  
-- \( m_i, m_j \) son las masas de las partículas  
+![image](https://github.com/user-attachments/assets/80c2942d-02c0-4e04-a727-178b3b1e2715)
+
+### Solución por el algoritmo de Verlet
+
+Este conocido método matemático permite calcular la evolución temporal de la posición de una partícula bajo la acción de una fuerza conocida usando posiciones pasadas previamente definidas o calculadas. 
+![image](https://github.com/user-attachments/assets/2f2e0118-619e-4cf8-bcc0-b52cc0f218ae)
+
+### Paralelización implementada
+
+En este caso, para la comparación de eficiencias y rendimiento, se evalúan los siguientes paradigmas de paralelización:
+- OpenMP
+- Pthreads
+- MPI
