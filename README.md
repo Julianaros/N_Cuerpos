@@ -13,11 +13,13 @@ y usando la **segunda Ley de Newton** es posible conocer la aceleración de las 
 ![image](https://github.com/user-attachments/assets/405375c4-d0eb-4aaf-a289-cb59da2112f4)
 
 donde
+
 ![image](https://github.com/user-attachments/assets/80c2942d-02c0-4e04-a727-178b3b1e2715)
 
 ### Solución por el algoritmo de Verlet
 
 Este conocido método matemático permite calcular la evolución temporal de la posición de una partícula bajo la acción de una fuerza conocida usando posiciones pasadas previamente definidas o calculadas. 
+
 ![image](https://github.com/user-attachments/assets/2f2e0118-619e-4cf8-bcc0-b52cc0f218ae)
 
 ### Paralelización implementada
