@@ -28,3 +28,11 @@ En este caso, para la comparación de eficiencias y rendimiento, se evalúan los
 - OpenMP
 - Pthreads
 - MPI
+
+### Referencias
+\begin{enumerate}
+    \item Aversa, R., Di Martino, B., Mazzocca, N., \& Venticinque, S. (2005). Performance analysis of hybrid OpenMP/MPI N-body application. In B. M. Chapman (Ed.), Shared memory parallel programming with Open MP (WOMPAT 2004) (Lecture Notes in Computer Science, Vol. 3349, pp. 11–22). Springer. https://doi.org/10.1007/978-3-540-31832-3\_2
+    \item Kang, S., \& Lee, S. (2015). Performance comparison of OpenMP, MPI, and MapReduce in practical problems. Advances in Multimedia, 2015, 1–9. https://doi.org/10.1155/2015/575687
+    \item Kuzmin, N., Sirotin, D., \& Khoperskov, A. (2024). Efficiency of parallel computations of gravitational forces by treecode method in N-body models. Mathematical Physics and Computer Simulation, 27(4), 39–55. https://doi.org/10.15688/mpcm.jvolsu.2024.4.4
+    \item Truong Vinh Truong Duy, T., Yamazaki, K., Ikegami, K., \& Oyanagi, S. (2012). Hybrid MPI-OpenMP paradigm on SMP clusters: MPEG-2 encoder and N-body simulation. arXiv. https://arxiv.org/abs/1211.2292
+\end{enumerate}
